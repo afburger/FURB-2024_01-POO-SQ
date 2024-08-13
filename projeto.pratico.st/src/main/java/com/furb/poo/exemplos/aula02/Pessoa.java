@@ -7,7 +7,7 @@ package com.furb.poo.exemplos.aula02;
 public class Pessoa {
 
     double altura;
-    private double peso;
+    double peso;
     
     public void setPeso(double peso) {
         this.peso = peso;
