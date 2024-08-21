@@ -1,5 +1,6 @@
-package com.furb.poo.exemplos.aula04;
+package com.furb.poo.exemplos.aula04.view;
 
+import com.furb.poo.exemplos.aula04.model.Pessoa;
 import java.text.DecimalFormat;
 
 /**

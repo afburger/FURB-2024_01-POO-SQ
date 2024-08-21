@@ -1,9 +1,10 @@
-package com.furb.poo.exemplos.aula04;
+package com.furb.poo.exemplos.aula04.view;
 
 /**
  *
  * @author André Felipe Bürger (afburger@furb.br)
  */
+import com.furb.poo.exemplos.aula04.model.Pessoa;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

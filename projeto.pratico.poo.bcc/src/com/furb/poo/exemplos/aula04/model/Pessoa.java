@@ -1,4 +1,4 @@
-package com.furb.poo.exemplos.aula04;
+package com.furb.poo.exemplos.aula04.model;
 
 /**
  * Declaração da classes
@@ -40,7 +40,7 @@ public class Pessoa {
         this.nome = nome;
     }
     
-    double calcularImc() {
+    public double calcularImc() {
         return peso / (altura * altura);
     }
 }
