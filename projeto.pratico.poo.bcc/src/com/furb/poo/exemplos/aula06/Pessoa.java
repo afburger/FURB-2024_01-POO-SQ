@@ -1,7 +1,9 @@
 package com.furb.poo.exemplos.aula06;
 
+
 /**
- * Representa uma pessoa para a calculadora de IMC
+ * Representa uma pessoa para a calculadora de IMC.
+ * 
  * @author André Felipe Bürger (afburger@furb.br)
  */
 public class Pessoa {
@@ -16,37 +18,31 @@ public class Pessoa {
     private String nome;
 
     /**
-     * 
-     * Construtor padrão.
-     * 
+     * Construntor padrão.
      */
     public Pessoa() {
     }
 
     /**
-     * Construtor para instanciar uma pessoa com as suas informações.
-     * @param alturaPessoa - A altura da pessoa.
-     * @param peso - O peso da pessoa.
-     * @param nome - O nome da pessoa.
+     * Contrutor da pessoa com seus atributos.
+     * @param altura a novaAltura da pessoa.
+     * @param peso o peso da pessoa.
+     * @param nome o nome da pessoa.
      */
-    public Pessoa(double alturaPessoa, double peso, String nome) {
-        this.altura = alturaPessoa;
+    public Pessoa(double altura, double peso, String nome) {
+        this.altura = altura;
         this.peso = peso;
         this.nome = nome;
     }
 
     /**
-     * Retorna a altura de uma pessoa.
-     * @return 
+     * Retorna a altura da pessoa.
+     * @return um double que representa a altura da pessoa.
      */
     public double getAltura() {
         return altura;
     }
 
-    /**
-     * Metodo responsável por definir a altura de uma pessoa.
-     * @param altura - valor <code>Double</code> que será atribuido para a altura da pessoa
-     */
     public void setAltura(double altura) {
         if (altura > 3) {
             throw new IllegalArgumentException("Altura da pessoa inválida");
@@ -54,10 +50,6 @@ public class Pessoa {
         this.altura = altura;
     }
 
-    /**
-     * 
-     * @return o valor do peso da pessoa.
-     */
     public double getPeso() {
         return peso;
     }
@@ -77,6 +69,10 @@ public class Pessoa {
         this.nome = nome;
     }
     
+    /**
+     * Efetua o calculo do IMC da pessoa.
+     * @return o resultado do IMC.
+     */
     public double calcularImc() {
         return calcularImc(peso, altura);
     }
