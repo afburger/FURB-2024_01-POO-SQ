@@ -41,8 +41,8 @@ public class Retangulo {
     /**
      * Define o comprimento do retângulo.
      * @param comprimento o comprimento do retângulo.
-     * @throws Caso o valor seja igual a zero ou negativo, 
-     * será lançado um {@code IllegalArgumentException}
+     * Caso o valor seja igual a zero ou negativo, 
+     * será lançado um {@link IllegalArgumentException}
      */
     public void setComprimento(int comprimento) {
         if (comprimento <= 0) {
