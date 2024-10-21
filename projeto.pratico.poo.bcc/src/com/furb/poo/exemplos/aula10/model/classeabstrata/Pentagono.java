@@ -1,4 +1,4 @@
-package com.furb.poo.exemplos.aula10.model;
+package com.furb.poo.exemplos.aula10.model.classeabstrata;
 
 /**
  *
